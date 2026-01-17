@@ -5,7 +5,7 @@ export const APP_VERSION = "0.0.1";
 document.title = "Brand | Admin " + APP_VERSION;
 
 var BASE_URL =
-  import.meta.env.VITE_BASE_URL || "https://brand-alpha-ecru.vercel.app/";
+  import.meta.env.VITE_BASE_URL || "egcp-be.vercel.app";
 
 if (import.meta.env.MODE === "development") {
   BASE_URL = "http://localhost:3000/";
