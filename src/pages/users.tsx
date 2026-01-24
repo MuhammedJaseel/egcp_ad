@@ -113,7 +113,7 @@ function AddWindow({ it, done }: any) {
   const [name, setname] = useState(it?.name ?? "");
   const [email, setemail] = useState(it?.email ?? "");
   const [password, setpassword] = useState(it?.password ?? "");
-  const [role, setrole] = useState(it?.role ?? "");
+  const [role, setrole] = useState(it?.role ?? "AGENT");
 
   const isnew = it ? false : true;
 
